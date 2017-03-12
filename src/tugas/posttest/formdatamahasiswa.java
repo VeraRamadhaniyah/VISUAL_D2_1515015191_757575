@@ -79,6 +79,11 @@ public class formdatamahasiswa extends javax.swing.JFrame {
             }
         });
 
+        nama.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                namaActionPerformed(evt);
+            }
+        });
         nama.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 namaKeyPressed(evt);
@@ -362,6 +367,10 @@ public class formdatamahasiswa extends javax.swing.JFrame {
     private void noActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_noActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_noActionPerformed
+
+    private void namaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_namaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_namaActionPerformed
 
     /**
      * @param args the command line arguments
