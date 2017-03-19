@@ -92,6 +92,7 @@ public class tugaspostest2 extends javax.swing.JFrame {
 
         buttonGroup1.add(male);
         male.setText("Male");
+        male.setAutoscrolls(true);
         male.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 maleActionPerformed(evt);
