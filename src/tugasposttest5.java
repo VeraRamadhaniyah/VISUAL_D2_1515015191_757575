@@ -168,6 +168,11 @@ if(Character.isDigit(b.getKeyChar())){
                 updateMouseClicked(evt);
             }
         });
+        update.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                updateActionPerformed(evt);
+            }
+        });
 
         hapus.setText("Hapus");
         hapus.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -454,6 +459,10 @@ if(Character.isDigit(b.getKeyChar())){
     private void nomorKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_nomorKeyReleased
         // TODO add your handling code here:
     }//GEN-LAST:event_nomorKeyReleased
+
+    private void updateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_updateActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_updateActionPerformed
 
     /**
      * @param args the command line arguments
